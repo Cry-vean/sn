@@ -1,0 +1,575 @@
+        .header {
+        	width: 970px;
+        	height: 100px;
+        	margin: 0px auto;
+        }
+        
+        .pic1 {
+        	margin-top: 18px;
+        }
+        
+        .font1 {
+        	width: 786px;
+        	height: 25px;
+        	line-height: 25px;
+        	font-size: 12px;
+        	border: 1px solid #fecd66;
+        	margin-left: 212px;
+        	margin-top: -30px;
+        }
+        
+        .container {
+        	width: 970px;
+        	height: 570px;
+        	margin: 0px auto;
+        }
+        
+        .advice {
+        	width: 150px;
+        	float: right;
+        	margin-top: 10px;
+        }
+        
+        .iconlogin {
+        	background: url(../img/09.png) no-repeat -67px -26px;
+        	height: 18px;
+        	width: 18px;
+        	cursor: pointer;
+        	margin-top: 3px;
+        	position: absolute;
+        }
+        
+        .font2 a {
+        	font-size: 12px;
+        	cursor: pointer;
+        	text-decoration: none;
+        	color: black;
+        	margin-left: 20px;
+        }
+        
+        .pic2 {
+        	height: 570px;
+        	background: url(../img/01.jpg) center center;
+        }
+        
+        .loginform {
+        	height: 433px;
+        	width: 360px;
+        	float: right;
+        	margin-top: 49px;
+        }
+        
+        .font3 {
+        	color: #fea808;
+        	text-decoration: none;
+        }
+        
+        .footer {
+        	height: 148px;
+        }
+        
+        .loginheader {
+        	width: 360px;
+        	height: 50px;
+        	background-color: white;
+        	border-bottom: 1px solid gainsboro;
+        	text-align: center;
+        	z-index: 1;
+        }
+        
+        .loginheader ul {
+        	width: 350px;
+        }
+        
+        .loginheader ul li {
+        	float: left;
+        	width: 170px;
+        	height: 35px;
+        	padding-top: 15px;
+        }
+        
+        .loginheader ul li:hover {
+        	color: red;
+        	cursor: pointer;
+        }
+        
+        ul li:nth-of-type(2) {
+        	position: relative;
+        }
+        
+        ul li:nth-of-type(2):after {
+        	position: absolute;
+        	top: 0.8em;
+        	height: 25px;
+        	left: 0;
+        	content: '';
+        	border-left: 1px solid #ccc;
+        }
+        
+        .form1 {
+        	width: 360px;
+        	height: 275px;
+        	background: white;
+        	display: none;
+        }
+        
+        .box1 {
+        	width: 360px;
+        	height: 275px;
+        }
+        
+        .tdc {
+        	width: 151px;
+        	height: 151px;
+        	margin-left: 100px;
+        	margin-top: 50px;
+        }
+        
+        .phoneinfo {
+        	width: 133px;
+        	height: 200px;
+        	margin-top: -180px;
+        	display: none;
+        	margin-left: 220px;
+        }
+        
+        form.current {
+        	display: block;
+        }
+        
+        .codelogin {
+        	width: 170px;
+        	height: 20px;
+        	margin: -50px auto;
+        }
+        
+        .iconsaoma {
+        	background: url(../img/09.png) no-repeat -164px -64px;
+        	height: 18px;
+        	width: 18px;
+        	cursor: pointer;
+        	float: left;
+        }
+        
+        .saoma {
+        	font-size: 12px;
+        	float: left;
+        }
+        
+        .form2 {
+        	width: 360px;
+        	height: 275px;
+        	background: white;
+        	display: none;
+        }
+        
+        .box2 {
+        	width: 360px;
+        	height: 275px;
+        	/*padding-top: 38px;*/
+        }
+        
+        .text4 {
+        	width: 321px;
+        	height: 43px;
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+        
+       
+        .tip1 {
+        	display: inline-block;
+        	width: 316px;
+        	height: 20px;
+        	/*margin-top: 10px;*/
+        	margin-left: 20px;
+        	font-size: 12px;
+        }
+        
+        .pic3 {
+        	width: 40px;
+        	height: 27px;
+        	border: 1px solid gainsboro;
+        	padding: 5px 7px;
+        	float: left;
+        	border-right: none;
+        }
+        
+        #user {
+        	display: inline-block;
+        	width: 260px;
+        	height: 37px;
+        	border: 1px solid gainsboro;
+        	border-left: none;
+        	float: left;
+        }
+        
+        input {
+        	outline: none;
+        }
+        
+         ::-webkit-input-placeholder {
+        	font-size: 15px;
+        }
+        
+        .iconuser {
+        	background: url(../img/09.png) no-repeat -90px -73px;
+        	height: 19px;
+        	width: 19px;
+        	position: absolute;
+        	display: inline-block;
+        }
+        
+        .text5 {
+        	width: 321px;
+        	height: 32px;
+        	margin-top: 28px;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        
+        .pic4 {
+        	width: 40px;
+        	height: 27px;
+        	border: 1px solid gainsboro;
+        	padding: 5px 9px;
+        	float: left;
+        	border-right: none;
+        }
+        
+        #password {
+        	display: inline-block;
+        	width: 260px;
+        	height: 37px;
+        	border: 1px solid gainsboro;
+        	border-left: none;
+        	float: left;
+        }
+        
+        .iconpassword {
+        	background: url(../img/09.png) no-repeat -51px -75px;
+        	height: 20px;
+        	width: 17px;
+        	position: absolute;
+        	display: inline-block;
+        }
+        
+        .infologin {
+        	width: 316px;
+        	height: 25px;
+        	margin-top: 25px;
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+        
+        .iconphone {
+        	background: url(../img/09.png) no-repeat -1px -148px;
+        	height: 16px;
+        	width: 10px;
+        	cursor: pointer;
+        	float: left;
+        }
+        
+        .message {
+        	font-size: 10px;
+        	float: left;
+        	margin-left: 5px;
+        	height: 16px;
+        }
+        
+        .message:hover {
+        	color: red;
+        	cursor: pointer;
+        }
+        
+        .forpass {
+        	height: 16px;
+        	float: right;
+        	margin-top: -3px;
+        }
+        
+        .forpass a {
+        	text-decoration: none;
+        	color: black;
+        	font-size: 10px;
+        }
+        
+        .forpass a:hover {
+        	color: red;
+        	text-decoration: underline;
+        }
+        
+        #submit {
+        	width: 300px;
+        	height: 40px;
+        	position: absolute;
+        	margin-top: 14px;
+        	margin-left: 30px;
+        	background-color: #ff6600;
+        	border-color: transparent;
+        	font-family: "微软雅黑";
+        	color: white;
+        	font-size: 20px;
+        }
+        
+        .loginfooter {
+        	width: 360px;
+        	background: white;
+        	height: 107px;
+        }
+        
+        .box3 {
+        	width: 360px;
+        	height: 107px;
+        	margin: 0px auto;
+        }
+        
+        .freeRegister {
+        	width: 100px;
+        	margin: 0px auto;
+        }
+        
+        .freeRegister a {
+        	text-decoration: none;
+        	color: black;
+        	font-size: 10px;
+        }
+        
+        .freeRegister a:hover {
+        	text-decoration: underline;
+        	color: red;
+        }
+        
+        .login {
+        	width: 360px;
+        	height: 20px;
+        	margin: 15px auto;
+        }
+        
+        .line1 {
+        	color: #dddddd;
+        	margin-left: 5px;
+        }
+        
+        .others {
+        	color: #999999;
+        	font-size: 12px;
+        }
+        
+        .line2 {
+        	color: #dddddd;
+        }
+        
+        .method {
+        	width: 280px;
+        	height: 20px;
+        	margin-left: 30px;
+        }
+        
+        .QQall {
+        	border-right: 1px solid #ccc;
+        	width: 45px;
+        	height: 20px;
+        	float: left;
+        	margin-left: 8px;
+        }
+        
+        .iconQQ {
+        	background: url(../img/09.png) no-repeat -89px -26px;
+        	height: 20px;
+        	width: 20px;
+        	cursor: pointer;
+        	float: left;
+        }
+        
+        .QQ {
+        	float: left;
+        	cursor: pointer;
+        	font-size: 12px;
+        }
+        
+        .Wechatall {
+        	border-right: 1px solid #ccc;
+        	width: 50px;
+        	height: 20px;
+        	float: left;
+        	margin-left: 8px;
+        }
+        
+        .iconWechat {
+        	background: url(../img/09.png) no-repeat -160px -107px;
+        	height: 18px;
+        	width: 18px;
+        	float: left;
+        	cursor: pointer;
+        }
+        
+        .Wechat {
+        	cursor: pointer;
+        	font-size: 12px;
+        }
+        
+        .Easyall {
+        	border-right: 1px solid #ccc;
+        	width: 60px;
+        	height: 20px;
+        	float: left;
+        	margin-left: 8px;
+        }
+        
+        .iconeasy {
+        	background: url(../img/09.png) no-repeat -118px -107px;
+        	height: 18px;
+        	width: 18px;
+        	cursor: pointer;
+        	float: left;
+        }
+        
+        .easy {
+        	cursor: pointer;
+        	font-size: 12px;
+        }
+        
+        .Vipall {
+        	border-right: 1px solid #ccc;
+        	width: 70px;
+        	height: 20px;
+        	float: left;
+        	margin-left: 8px;
+        }
+        
+        .vip {
+        	cursor: pointer;
+        	font-size: 12px;
+        }
+        
+        .method a {
+        	color: black;
+        	text-decoration: none;
+        }
+        
+        .method a:hover {
+        	color: red;
+        }
+        
+          .form3 {
+        	width: 360px;
+        	height: 275px;
+        	background: white;
+        	display: none;
+        }
+        
+        .box3 {
+        	width: 360px;
+        	height: 275px;
+        	/*padding-top: 38px;*/
+        }
+        
+        .text4 {
+        	width: 321px;
+        	height: 43px;
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+        
+       
+        .tip2 {
+        	display: inline-block;
+        	width: 316px;
+        	height: 20px;
+        	/*margin-top: 10px;*/
+        	margin-left: 20px;
+        	font-size: 12px;
+        }
+        
+        .pic3 {
+        	width: 40px;
+        	height: 27px;
+        	border: 1px solid gainsboro;
+        	padding: 5px 7px;
+        	float: left;
+        	border-right: none;
+        }
+        
+        #phonenum {
+        	display: inline-block;
+        	width: 260px;
+        	height: 37px;
+        	border: 1px solid gainsboro;
+        	border-left: none;
+        	float: left;
+        }
+        
+         .userlogin {
+        	width: 316px;
+        	height: 25px;
+        	margin-top: 25px;
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+        
+        .message1{
+        	    font-size: 10px;
+              float: left;
+             margin-left: 25px;
+             height: 16px;
+             margin-top: 5px;
+        }
+        
+        
+        .footer {
+        	height: 120px;
+        	width: 990px;
+        	margin: 0px auto;
+        }
+        
+        .footer1 {
+        	width: 700px;
+        	margin: 10px auto;
+        }
+        
+        .footer2 {
+        	width: 780px;
+        	margin: 5px auto;
+        }
+        
+        .footer a {
+        	text-decoration: none;
+        	font-size: 10px;
+        	color: #666666;
+        	padding-right: 5px;
+        }
+        
+        .footer1 span {
+        	color: #666666;
+        }
+        
+        .footer2 span {
+        	color: #666666;
+        }
+        
+        .footer3 {
+        	width: 990px;
+        	margin: 5px auto;
+        	font-size: 12px;
+        	color: #666666;
+        }
+        
+        .footer3 a {
+        	text-decoration: none;
+        	font-size: 12px;
+        	color: #666666;
+        	padding-right: 5px;
+        }
+        
+        .footer3 a:hover {
+        	text-decoration: underline;
+        }
+        
+        .footer4 {
+        	width: 400px;
+        	margin: 5px auto;
+        }
+       .two{
+        	display: block;
+        }

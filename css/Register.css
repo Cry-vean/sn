@@ -1,0 +1,275 @@
+body {
+
+	background: #f8f8f8;
+}
+.header{
+	width:990px;
+	height:88px;
+	/*border: 1px solid #000;*/
+	margin:0px auto;
+	
+}
+.pic1 {
+   float: left;
+	margin-top: 18px;
+}
+
+.font1 {
+	float: left;
+	line-height: 88px;
+
+	margin-left:10px;
+	color: #6f666f;
+	font-size: 20px;
+}
+
+.fontlogin {
+	margin-right:25px;
+	float:right;
+	margin-top: 60px;
+}
+.fontlogin a{
+	font-size: 10px;
+	text-decoration: none;
+	color: black;
+}
+.fontlogin a:hover {
+	color: red;
+}
+
+.content {
+	border: 1px solid gainsboro;
+	border-top: 3px solid #ff9900;
+	width: 990px;
+	height: 464px;
+	margin:0px auto;
+	
+}
+
+.form1 {
+	width: 380px;
+	height: 370px;
+	margin:30px auto;
+
+}
+
+.icongift {
+	background: url(../img/sprite.png) no-repeat -73px -92px;
+	height: 17px;
+	width: 19px;
+	cursor: pointer;
+	position: absolute;
+}
+
+.text1 {
+
+	width: 380px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.tip {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	
+	font-size: 12px;
+}
+
+.phoneNumtext {
+	width: 308px;
+	height: 35px;
+	border: 1px solid #ccc;
+	border-left: none;
+	float: left;
+	margin-left: 71px;
+	margin-top:-37px;
+}
+
+.font2 {
+	font-size: 15px;
+	margin-left: 25px;
+}
+
+.font3 {
+	width: 70px;
+	height: 35px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 35px;
+	background: white;
+	font-size: 10px;
+	float: left;
+	border-right: none;
+}
+
+input {
+	outline: none;
+}
+
+.text2 {
+	width: 380px;
+	height: 40px;
+}
+
+.font4 {
+	width: 76px;
+	height: 35px;
+	float:left;
+	border: 1px solid #ccc;
+	text-align: center;
+   border-right: none;
+	line-height: 35px;
+	background: white;
+	font-size: 10px;
+}
+
+.phoneNumchecktext {
+	float: left;
+	width: 156px;
+	height: 35px;
+	border: 1px solid #ccc;
+	border-left: none;
+
+}
+
+#btnChecked {
+	float: left;
+	width: 146px;
+	height: 37px;
+margin-top:-37px;
+	margin-left: 234px;
+}
+
+.text3 {
+	width: 380px;
+	height: 40px;
+}
+
+.font5 {
+	width: 70px;
+	height: 35px;
+	float: left;
+	border: 1px solid #ccc;
+	text-align: center;
+	border-right: none;
+	line-height: 35px;
+	background: white;
+	font-size: 10px;
+}
+
+.passwordtext {
+	float:left;
+	width: 308px;
+	height: 35px;
+	border: 1px solid #ccc;
+	border-left: none;
+	margin-left: 70px;
+	margin-top:-37px;
+}
+
+input::-webkit-input-placeholder {
+	color: #ccc;
+	font-size: 12px;
+}
+
+.font6 {
+	font-size: 10px;
+}
+
+.onn {
+	color: red;
+}
+
+#submit {
+	font-size: 24px;
+	height: 40px;
+	width: 378px;
+	background-color: #ff6600;
+	color: white;
+	border: 1px solid transparent;
+}
+
+.font7 {
+	color: #ff9900;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.footer {
+	height: 175px;
+	width: 990px;
+
+	margin:0px auto;
+}
+
+.footer1 {
+	width: 700px;
+	
+	margin:5px auto;
+}
+
+.footer2 {
+	width: 780px;
+	height: 30px;
+    margin:5px auto;
+}
+
+.footer a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666666;
+	padding-right: 5px;
+}
+
+.footer1 span {
+	color: #666666;
+	padding-right: 5px;
+}
+
+.footer2 span {
+	color: #666666;
+	padding-right: 5px;
+}
+
+.footer3 {
+	width: 790px;
+	height: 30px;
+	margin:5px auto;
+}
+
+.footer3 span {
+	color: #666666;
+	font-size: 10px;
+	padding-right: 5px;
+}
+
+.footer4 {
+	width: 770px;
+	height: 30px;
+	margin:5px auto;
+}
+
+.footer4 span {
+	color: #666666;
+	font-size: 10px;
+	padding-right: 5px;
+}
+
+.footer5 {
+	width: 660px;
+	height: 30px;
+	margin:5px auto;
+}
+
+.footer5 {
+	color: #666666;
+	font-size: 10px;
+}
+
+.footer6 {
+	
+	width: 400px;
+	height: 30px;
+	margin:5px auto;
+}
